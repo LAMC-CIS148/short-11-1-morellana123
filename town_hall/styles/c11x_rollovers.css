@@ -59,7 +59,27 @@ section h1 {
 section p {
 	padding-bottom: .5em;
 }
-
+/* set background image  */
+.imageC {
+    width: 330px;
+    height: 300px;
+    background: url("../images/sampson_dinosaur.jpg");
+    background-repeat: no-repeat;
+  background-size: 330px 300px;
+    
+}
+/* image change when hover on first image  */
+.imageC:hover {
+    background: url("../images/sorkin_desk260.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 330px 300px;
+}
+p {
+	width: 260px;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-top: 10px;
+}
 /* the styles for the article */
 article {
 	padding: .5em 0;
